@@ -920,3 +920,5 @@ select * from mjesto;
 select naziv from mjesto where zupanija=14;
 select naziv from mjesto where naziv like '%ac%';
 insert into mjesto (postanskibroj,zupanija,naziv) values('31002',14,'Programovci');
+
+
