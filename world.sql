@@ -5426,3 +5426,5 @@ select * from city;
 select * from city where CountryCode='HRV';
 insert into city(ID,Name,CountryCode,District,Population)
 values(null,'Donji Miholjac','HRV','Osijek-Baranja',9491);
+update city set Name = 'Spickovina' where ID = '4080';
+delete from city where ID = '4080';
