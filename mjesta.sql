@@ -918,3 +918,4 @@ INSERT INTO  mjesto  ( postanskibroj ,  zupanija ,  naziv ) VALUES
 
 select * from mjesto;
 select naziv from mjesto where zupanija=14;
+select naziv from mjesto where naziv like '%ac%';
