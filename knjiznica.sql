@@ -7496,3 +7496,4 @@ select * from izdavac where naziv like '%d.o.o.';
 select * from izdavac where aktivan=0;
 select * from izdavac where aktivan=1;
 select * from izdavac where naziv like '%av%';
+select * from izdavac where naziv like '%elektro%';
