@@ -7483,3 +7483,6 @@ insert into katalog (sifra, naslov, autor, izdavac,mjesto) values (3221, 'KRALJI
 
 select * from autor;
 select * from autor where datumrodenja is null;
+
+insert into autor(sifra,ime,prezime,datumrodenja)
+values(1985,'Ivana','Cerovski','1985-12-16');
