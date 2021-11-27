@@ -7488,3 +7488,4 @@ insert into autor(sifra,ime,prezime,datumrodenja)
 values(1985,'Ivana','Cerovski','1985-12-16');
 select * from autor where ime='Ivana';
 select * from autor where ime='Ivana' and prezime='Cerovski';
+select * from autor where sifra=1985;
