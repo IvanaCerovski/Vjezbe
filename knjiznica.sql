@@ -7493,3 +7493,4 @@ select * from autor where datumrodenja='1985-12-16';
 select * from autor where ime='Ivana';
 
 select * from izdavac where naziv like '%d.o.o.';
+select * from izdavac where aktivan=0;
