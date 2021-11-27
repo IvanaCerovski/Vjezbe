@@ -7498,3 +7498,9 @@ select * from izdavac where aktivan=1;
 select * from izdavac where naziv like '%av%';
 select * from izdavac where naziv like '%elektro%';
 select * from izdavac where naziv like 'dp%';
+
+#nazivi knjiga koje su izdali neaktivni izdavači
+select a.naslov
+from katalog a inner join izdavac b on a.izdavac=b.sifra
+where b.aktivan is null;
+
