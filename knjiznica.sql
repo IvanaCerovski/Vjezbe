@@ -7504,3 +7504,8 @@ select a.naslov
 from katalog a inner join izdavac b on a.izdavac=b.sifra
 where b.aktivan is null;
 
+# izvucite sve autore koji u svojim naslovima 
+# knjiga nemaju slovo B
+select b.ime, b.prezime
+from katalog a inner join autor b on a.autor=b.sifra
+where a.naslov not like '%b%';
