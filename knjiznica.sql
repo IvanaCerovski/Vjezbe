@@ -7489,3 +7489,4 @@ values(1985,'Ivana','Cerovski','1985-12-16');
 select * from autor where ime='Ivana';
 select * from autor where ime='Ivana' and prezime='Cerovski';
 select * from autor where sifra=1985;
+select * from autor where datumrodenja='1985-12-16';
