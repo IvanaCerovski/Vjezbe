@@ -7509,3 +7509,10 @@ where b.aktivan is null;
 select b.ime, b.prezime
 from katalog a inner join autor b on a.autor=b.sifra
 where a.naslov not like '%b%';
+
+#izvucite sve aktivne izdavače koji su izdali knjige u Zagrebu
+#0
+select b.naziv
+from katalog a inner join izdavac b on a.izdavac=b.sifra
+inner join mjesto c on a.mjesto=c.sifra
+where c.postanskibroj=10000 and aktivan=1;
