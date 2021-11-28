@@ -7516,3 +7516,12 @@ select b.naziv
 from katalog a inner join izdavac b on a.izdavac=b.sifra
 inner join mjesto c on a.mjesto=c.sifra
 where c.postanskibroj=10000 and aktivan=1;
+
+#svi naslovi Augusta Šenoe
+select b.naslov
+from autor a inner join katalog b on a.sifra=b.autor 
+where a.ime='August' and a.prezime='Šenoa';
+
+select b.naslov
+from autor a inner join katalog b on a.sifra=b.autor 
+where a.ime='August' and a.prezime like '%enoa';
