@@ -28,8 +28,15 @@ order_time datetime
 alter table orders add foreign key (product_id) references products(id);
 alter table orders add foreign key (customer_id) references customers(id);
 
+
+
 #dodavanje i brisanje kolona iz tablice
 
 select * from products;
 alter table products 
 add column coffee_origin varchar(30);
+
+alter table products 
+drop column coffee_origin;
+select * from products;
+
