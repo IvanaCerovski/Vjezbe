@@ -26,3 +26,5 @@ order_time datetime
 );
 
 alter table orders add foreign key (product_id) references products(id);
+alter table orders add foreign key (customer_id) references customers(id);
+
