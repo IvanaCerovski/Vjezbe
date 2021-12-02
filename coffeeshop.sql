@@ -7,3 +7,5 @@ id int primary key auto_increment,
 name varchar(30),
 price decimal(3,2)
 );
+
+show tables;
