@@ -40,3 +40,6 @@ alter table products
 drop column coffee_origin;
 select * from products;
 
+alter table products
+add column coffee_origin varchar(30);
+
