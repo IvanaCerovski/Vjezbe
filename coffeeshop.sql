@@ -25,3 +25,4 @@ customer_id int,
 order_time datetime
 );
 
+alter table orders add foreign key (product_id) references products(id);
