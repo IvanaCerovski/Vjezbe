@@ -18,3 +18,10 @@ gender enum('M','F'),
 phone_number varchar(20)
 );
 
+create table orders(
+id int primary key auto_increment,
+product_id int,
+customer_id int,
+order_time datetime
+);
+
