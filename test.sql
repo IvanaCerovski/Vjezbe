@@ -92,5 +92,8 @@ add constraint u_email unique (email);
 
 alter table pets change `name` `first_name`varchar(20);
 
+describe addresses;
+alter table addresses modify postcode char(7);
+
 
 
