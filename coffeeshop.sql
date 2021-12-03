@@ -64,3 +64,8 @@ update products
 set price=3.25, coffee_origin='Ethiopia'
 where name='Americano';
 
+#update više redova
+update products 
+set coffee_origin = 'Colombia'
+where coffee_origin = 'Brazil';
+
