@@ -84,5 +84,11 @@ alter table pets
 add constraint FK_PetsPeople
 foreign key (owner_id) references people (id);
 
+describe people;
+alter table people add column email varchar(20);
+
+alter table people 
+add constraint u_email unique (email);
+
 
 
