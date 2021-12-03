@@ -56,6 +56,11 @@ describe people;
 alter table people 
 drop foreign key FK_PeopleAddresses;
 
+#promijeniti naziv kolone
+
+alter table pets change `species` `animal_type` varchar(20);
+select * from pets;
+describe pets;
 
 
 
