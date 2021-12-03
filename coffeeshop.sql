@@ -43,6 +43,12 @@ select * from products;
 alter table products
 add column coffee_origin varchar(30);
 
-describe people;
-alter table people add column email varchar(20);
+use coffeeshop;
+
+select * from products;
+insert into products (id,name,price,coffee_origin)
+values (null,'Espresso',2.50,'Brazil');
+
+insert into products (id,name,price,coffee_origin)
+values (null,'Macchiato',3.00,'Brazil'), (null,'Cappuccino',3.50,'Costa Rica');
 
