@@ -15,3 +15,9 @@ select * from test;
 show tables;
 
 drop table test;
+
+create table test(
+id int primary key auto_increment,
+name varchar(30),
+age int
+);
