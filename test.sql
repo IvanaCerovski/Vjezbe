@@ -64,5 +64,9 @@ describe pets;
 
 alter table pets change `animal_type` `species` varchar(20);
 
+#promijeniti tip podatka u koloni
+describe addresses;
+alter table addresses modify city varchar(30);
+
 
 
