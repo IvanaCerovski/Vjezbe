@@ -90,5 +90,7 @@ alter table people add column email varchar(20);
 alter table people 
 add constraint u_email unique (email);
 
+alter table pets change `name` `first_name`varchar(20);
+
 
 
