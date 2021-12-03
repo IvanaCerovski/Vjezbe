@@ -79,5 +79,10 @@ describe pets;
 alter table pets 
 add primary key (id);
 
+describe pets;
+alter table pets 
+add constraint FK_PetsPeople
+foreign key (owner_id) references people (id);
+
 
 
