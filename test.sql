@@ -35,3 +35,7 @@ add primary key(id);
 
 alter table addresses 
 drop primary key;
+
+describe people;
+alter table people 
+add primary key(id);
