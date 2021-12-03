@@ -21,3 +21,9 @@ id int primary key auto_increment,
 name varchar(30),
 age int
 );
+
+insert into test(id,name,age)
+values(null,'Ben',19),
+(null,'Simon',28),
+(null,'Claire',23);
+select * from test;
