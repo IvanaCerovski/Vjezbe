@@ -39,3 +39,6 @@ drop primary key;
 describe people;
 alter table people 
 add primary key(id);
+
+alter table people
+drop primary key;
