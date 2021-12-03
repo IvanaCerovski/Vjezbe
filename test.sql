@@ -15,3 +15,10 @@ first_name varchar(20),
 last_name varchar(20),
 address_id int,
 );
+
+create table pets(
+id int,
+name varchar(20),
+species varchar(20),
+owner_id int,
+);
