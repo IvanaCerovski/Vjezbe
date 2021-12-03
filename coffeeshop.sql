@@ -59,3 +59,8 @@ update products
 set coffee_origin='Sri Lanka'
 where id=7;
 
+#update 2 kolone u jednom redu
+update products 
+set price=3.25, coffee_origin='Ethiopia'
+where name='Americano';
+
