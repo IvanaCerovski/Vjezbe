@@ -55,3 +55,7 @@ values (null,'Macchiato',3.00,'Brazil'), (null,'Cappuccino',3.50,'Costa Rica');
 insert into products (id,name,price,coffee_origin)
 values (null,'Latte',3.50,'Indonesia'), (null,'Americano',3.00,'Brazil'), (null,'Flat White',3.50,'Indonesia'), (null,'Filter',3.00,'India');
 
+update products 
+set coffee_origin='Sri Lanka'
+where id=7;
+
