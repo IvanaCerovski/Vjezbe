@@ -43,3 +43,6 @@ select * from products;
 alter table products
 add column coffee_origin varchar(30);
 
+describe people;
+alter table people add column email varchar(20);
+
