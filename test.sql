@@ -71,7 +71,13 @@ alter table addresses modify city char(25);
 alter table addresses modify city varchar(20);
 
 
+describe people;
+alter table people 
+add primary key (id);
 
+describe pets;
+alter table pets 
+add primary key (id);
 
 
 
