@@ -42,3 +42,20 @@ add primary key(id);
 
 alter table people
 drop primary key;
+
+alter table addresses 
+add primary key(id);
+
+
+
+alter table people 
+add constraint FK_PeopleAddresses
+foreign key (address_id) references addresses (id);
+describe people;
+
+alter table people 
+drop foreign key FK_PeopleAddresses;
+
+
+
+
