@@ -31,3 +31,7 @@ describe addresses;
 
 alter table addresses 
 add primary key(id);
+
+
+alter table addresses 
+drop primary key;
