@@ -123,3 +123,8 @@ INSERT INTO orders (product_id,customer_id,order_time) VALUES (1,1,'2017-01-01 0
 
 select * from orders;
 
+select * from customers;
+
+#samo prezimena kupaca
+select last_name from customers;
+
