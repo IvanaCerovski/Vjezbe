@@ -49,10 +49,14 @@ values ('Emma',21,'F'),('John',30,'M'),('Thomas',27,'M'),('Chris',44,'M'),('Sall
 delete from people 
 where id > 7;
 
+#obrisati Johna 
 delete from people 
 where name='John';
 
+#obrisati osobe ženskog spola
 delete from people 
 where gender='F';
 
+#obrisati sve osobe iz tablice
 delete from people;
+
