@@ -144,3 +144,7 @@ select * from products
 where price=3.00
 and coffee_origin='Colombia';
 
+select * from products 
+where price=3.00
+or coffee_origin='Colombia';
+
