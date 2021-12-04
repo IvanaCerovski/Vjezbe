@@ -128,3 +128,6 @@ select * from customers;
 #samo prezimena kupaca
 select last_name from customers;
 
+#odabir više kolona
+select last_name,phone_number from customers;
+
