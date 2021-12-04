@@ -131,3 +131,7 @@ select last_name from customers;
 #odabir više kolona
 select last_name,phone_number from customers;
 
+#coffee origin je Colombia
+select * from products 
+where coffee_origin='Colombia';
+
