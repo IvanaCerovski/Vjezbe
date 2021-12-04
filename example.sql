@@ -31,3 +31,13 @@ select * from test;
 #brisanje svih podataka iz tablice (svih redova)
 truncate table test;
 select * from test;
+
+
+use example;
+
+create table people(
+id int primary key auto_increment,
+name varchar(30),
+age int,
+gender enum('M','F')
+);
