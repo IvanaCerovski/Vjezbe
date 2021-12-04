@@ -51,3 +51,6 @@ where id > 7;
 
 delete from people 
 where name='John';
+
+delete from people 
+where gender='F';
