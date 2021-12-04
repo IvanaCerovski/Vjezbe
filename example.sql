@@ -54,3 +54,5 @@ where name='John';
 
 delete from people 
 where gender='F';
+
+delete from people;
