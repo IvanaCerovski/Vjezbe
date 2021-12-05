@@ -184,3 +184,7 @@ where phone_number is null and last_name is null;
 select * from customers 
 where phone_number is null or last_name is null;
 
+#ime i broj telefona svih ženskih kupaca s prezimenom Bluth
+select * from customers 
+where gender='F' and last_name='Bluth' and phone_number is not null;
+
