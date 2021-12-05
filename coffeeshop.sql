@@ -207,3 +207,7 @@ select * from customers;
 select * from customers 
 where gender='M' and phone_number is null;
 
+#kupci s prezimenima Taylor, Bluth i Armstrong
+select * from customers 
+where last_name in ('Taylor','Bluth','Armstrong');
+
