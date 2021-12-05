@@ -193,3 +193,8 @@ select * from products;
 select * from products 
 where price > 3.00 or coffee_origin='Sri Lanka';
 
+select * from customers;
+#koliko muških kupaca nisu dali broj telefona
+select * from customers 
+where gender='M' and phone_number is null;
+
