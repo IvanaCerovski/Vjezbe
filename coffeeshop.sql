@@ -188,3 +188,8 @@ where phone_number is null or last_name is null;
 select * from customers 
 where gender='F' and last_name='Bluth' and phone_number is not null;
 
+select * from products;
+#sve kave čija je cijena veća od 3.00 ili je porijeklo Sri Lanka
+select * from products 
+where price > 3.00 or coffee_origin='Sri Lanka';
+
