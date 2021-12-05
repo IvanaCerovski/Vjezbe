@@ -172,3 +172,7 @@ where price <= 3.00;
 select * from customers 
 where phone_number is null;
 
+#kupci koji su dali broj telefona
+select * from customers 
+where phone_number is not null;
+
