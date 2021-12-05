@@ -168,3 +168,7 @@ where price < 3.00;
 select * from products 
 where price <= 3.00;
 
+#kupci koji nisu dali broj telefona
+select * from customers 
+where phone_number is null;
+
