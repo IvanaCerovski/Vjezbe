@@ -211,3 +211,7 @@ where gender='M' and phone_number is null;
 select * from customers 
 where last_name in ('Taylor','Bluth','Armstrong');
 
+#kupci koji se ne zovu Katie, John i George
+select * from customers 
+where first_name not in ('Katie','John','George');
+
