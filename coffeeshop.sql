@@ -152,3 +152,7 @@ or coffee_origin='Colombia';
 select * from products
 where price=3.00;
 
+#kave čija je cijena veća ili jednaka 3.00
+select * from products 
+where price >=3.00;
+
