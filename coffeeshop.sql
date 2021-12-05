@@ -164,3 +164,7 @@ where price >3.00;
 select * from products 
 where price < 3.00;
 
+#kave čija je cijena manja ili jednaka 3.00
+select * from products 
+where price <= 3.00;
+
