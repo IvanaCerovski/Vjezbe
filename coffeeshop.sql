@@ -180,3 +180,7 @@ where phone_number is not null;
 select * from customers 
 where phone_number is null and last_name is null;
 
+#kupci koji nisu dali prezime ili broj telefona
+select * from customers 
+where phone_number is null or last_name is null;
+
