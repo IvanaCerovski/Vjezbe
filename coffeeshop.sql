@@ -215,3 +215,8 @@ where last_name in ('Taylor','Bluth','Armstrong');
 select * from customers 
 where first_name not in ('Katie','John','George');
 
+select * from orders;
+
+select product_id,customer_id,order_time from orders 
+where order_time between '2017-01-01' and '2017-01-07';
+
