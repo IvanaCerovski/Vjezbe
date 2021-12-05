@@ -148,3 +148,7 @@ select * from products
 where price=3.00
 or coffee_origin='Colombia';
 
+#kave čija je cijena 3.00
+select * from products
+where price=3.00;
+
