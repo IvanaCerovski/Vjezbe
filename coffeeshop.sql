@@ -187,6 +187,11 @@ where phone_number is null or last_name is null;
 #ime i broj telefona svih ženskih kupaca s prezimenom Bluth
 select * from customers 
 where gender='F' and last_name='Bluth' and phone_number is not null;
+#prvi način ne valja
+
+#ovo valja:
+select first_name,phone_number from customers 
+where gender = 'F' and last_name = 'Bluth';
 
 select * from products;
 #sve kave čija je cijena veća od 3.00 ili je porijeklo Sri Lanka
