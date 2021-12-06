@@ -262,3 +262,8 @@ select * from orders
 where customer_id=1
 order by order_time asc;
 
+## naziv i cijena svih kava čije je porijeklo Kolumbija ili Indonezija, a-z
+select name,price from products 
+where coffee_origin in ('Colombia','Indonesia')
+order by name asc;
+
