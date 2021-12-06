@@ -226,3 +226,7 @@ where customer_id between 5 and 10;
 select * from customers 
 where last_name between 'a' and 'l';
 
+#kupci čije prezime počinje s w
+select * from customers 
+where last_name like 'w%';
+
