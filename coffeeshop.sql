@@ -237,3 +237,6 @@ where last_name like '%o%';
 select * from customers 
 where first_name like '%o%';
 
+select * from customers 
+where first_name like '_o_';
+
