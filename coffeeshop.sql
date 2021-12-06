@@ -272,3 +272,8 @@ select * from orders
 where customer_id in (2,4,6,8) and order_time between '2017-02-01' and '2017-02-28'
 order by order_time asc;
 
+
+##imena kupaca i brojevi mobitela čije prezime ima niz ar
+select first_name,phone_number from customers 
+where last_name like '%ar%';
+
