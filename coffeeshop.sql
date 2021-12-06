@@ -240,3 +240,7 @@ where first_name like '%o%';
 select * from customers 
 where first_name like '_o_';
 
+#cijena počinje s 3
+select * from products 
+where price like '3%';
+
