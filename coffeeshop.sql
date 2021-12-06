@@ -267,3 +267,8 @@ select name,price from products
 where coffee_origin in ('Colombia','Indonesia')
 order by name asc;
 
+#sve naružbe u veljači 2917 od customer_id 2,4,6 ili 8
+select * from orders
+where customer_id in (2,4,6,8) and order_time between '2017-02-01' and '2017-02-28'
+order by order_time asc;
+
