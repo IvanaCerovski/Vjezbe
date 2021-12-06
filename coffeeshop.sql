@@ -252,3 +252,6 @@ order by price asc;
 select * from products 
 order by price desc;
 
+select * from customers 
+order by last_name asc;
+
