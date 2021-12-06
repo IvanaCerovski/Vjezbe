@@ -230,3 +230,10 @@ where last_name between 'a' and 'l';
 select * from customers 
 where last_name like 'w%';
 
+#kupci čije prezime sadrži slovo o
+select * from customers 
+where last_name like '%o%';
+
+select * from customers 
+where first_name like '%o%';
+
