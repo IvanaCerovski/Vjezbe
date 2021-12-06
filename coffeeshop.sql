@@ -244,3 +244,7 @@ where first_name like '_o_';
 select * from products 
 where price like '3%';
 
+#poredati po cijeni od manje prema većoj
+select * from products
+order by price asc;
+
