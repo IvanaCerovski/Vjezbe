@@ -255,3 +255,6 @@ order by price desc;
 select * from customers 
 order by last_name asc;
 
+select * from customers 
+order by last_name desc;
+
