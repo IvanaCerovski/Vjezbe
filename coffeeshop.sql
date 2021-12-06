@@ -277,3 +277,6 @@ order by order_time asc;
 select first_name,phone_number from customers 
 where last_name like '%ar%';
 
+#bez ponavljanja
+select distinct coffee_origin from products;
+
