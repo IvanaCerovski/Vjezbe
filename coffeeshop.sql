@@ -248,3 +248,7 @@ where price like '3%';
 select * from products
 order by price asc;
 
+#poredati po cijeni od veće prema manjoj
+select * from products 
+order by price desc;
+
